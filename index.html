@@ -20,15 +20,21 @@
             <p class="titulo-p">Já possui uma conta? <a href="#" class="link">Faça login</a></p>
         <form>
             <input type="text" name="nick" id="nick" placeholder="Usuário" class="input">
-            <div>
-            <input type="text" name="Nome" id="Nome" placeholder="Nome" class="input">
-            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" class="input">
-        </div>
-            <button type="submit" class="botao">Cadastrar</button><br>
 
+            <div class="container-nome">
+            <input type="text" name="Nome" id="Nome" placeholder="Nome" class="input input-nome">
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" class="input input-sobrenome" >
+            </div>
+
+        <input type="email" name="email" id="email" placeholder="E-mail" class="input">
+
+        <a href="https://google.com.br"><button type="link" class="botao" >Enviar</button></a><br>
+
+            <div class="container-termo">
             <input type="checkbox" name="checkbox" id="checkbox" class="check">
             <label for="" class="aceito">*Eu aceito os termos de uso da plataforma.</label><br>
             <a href="#" class="link termo">Termos de uso da plataforma</a>
+        </div>
         </form>
     </div>
     </section>

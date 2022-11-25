@@ -11,17 +11,18 @@
 .corpo{
     display: flex;
     justify-content: center;
-    background: linear-gradient(#aa3f81,#d3c1ca,#964a7f);
+    background: var(--cordefundo);
     font-family: var(--fonte-principal);
     color: gray;
 
 }
 .formulario{
-    width: 400px;
-    margin: 5em;
+
+    display: inline-block;
+    margin: 25% 0;
     left: 50%;
     top: 50%;
-    padding: 50px;
+    padding: 55px;
     box-sizing: border-box;
     border-radius: 15px;
     background: white;
@@ -40,52 +41,72 @@
     margin: 0 0 30px;
     color: gray;
     text-align: center;
-   
-
 }
 .input{
     text-align: center;
     font-family: var(--fonte-principal);
     width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    margin-bottom: 15px;
-    background: transparent;
-    border-radius: 15px;
+    padding: 5px 0;
+    font-size: 14px;
+    margin:0 0 0.5em 0;
+    border-radius: 10px;  
+    border: 1px gray solid;
+}
+.input-nome{
+    
+    padding: 5px 0;
+    margin-bottom: 0.5em;
+}
+.input-sobrenome{
+    margin:0 0 0 0.1em;
+    padding: 5px 0;
+    margin-bottom: 0.5em;
+}
+.container-nome{
+    display: flex;
+    justify-content: space-between;
+    
+
     
 }
-
+.conteiner-termo{
+    display: flex;
+    justify-content: center;
+}
 .botao{
     text-align: center;
     font-family: var(--fonte-principal);
     width: 50%;
     margin-left: 25%;
-    padding: 10px 2px;
+    padding: 8px 2px;
     font-size: 16px;
     border-radius: 20px;
     color: white;
-    background-color: rgb(36, 36, 58);
-    
+    background-color: #aa3f81;
+    border: none;
     }
 .check{
     font-family: var(--fonte-principal);
-    text-align: center;
-    
+    text-align: center;  
     margin: 1em 0 0 2em;
-
 }
-    
-
 .link{
     font-family: var(--fonte-principal);
     text-align: center;
     text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: #801b66;
 }
 .aceito{
     margin: 5em 0 0 0;
+    font-size: 15px;
 }
 .termo{
-    margin-left: 5em;
+    margin-left: 30%;
     padding: 2em 0 0 0;
+    font-size: 12px;
+    
 
 }
