@@ -73,11 +73,7 @@
 .container-nome{
     display: flex;
     justify-content: space-between;
-    
-
-    
 }
-
 
 .botao{
     text-align: center;
@@ -111,7 +107,7 @@
 }
 .termo{
     margin-left: 30%;
-    padding: 2em 0.5em;
+    padding: 2em 1em;
     font-size: 12px;
     
 
